@@ -1,4 +1,4 @@
-massiv = [23, 91, 558, 55, 13]
+
 def comb(massiv):
     step = int(len(massiv)/1.247)
     swap = 1
@@ -12,7 +12,6 @@ def comb(massiv):
             i = i + 1
         if step > 1:
             step = int(step / 1.247)
-            print(massiv)
-print(massiv)
-comb(massiv)
-print('Результат сортировки:', massiv)
+A = list(map(int,input().split()))
+comb(A)
+print(A)
